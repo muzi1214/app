@@ -1,6 +1,7 @@
 <?php
 
 class CommunityPageSpecialHooks {
+	const FIRST_EDIT_COOKIE_KEY = 'community-page-first-time';
 
 	/**
 	 * Cache key invalidation when an article is edited
@@ -54,6 +55,23 @@ class CommunityPageSpecialHooks {
 	}
 
 	/**
+	 * Adds assets for Community Page Benefits Modal
+	 *
+	 * @param \OutputPage $out
+	 * @param \Skin $skin
+	 *
+	 * @return true
+	 */
+	public static function onBeforePageDisplay( \OutputPage $out, \Skin $skin ) {
+		\Wikia::addAssetsToOutput( 'community_page_benefits_js' );
+		\Wikia::addAssetsToOutput( 'community_page_benefits_scss' );
+		\Wikia::addAssetsToOutput( 'community_page_new_user_modal_js' );
+		\Wikia::addAssetsToOutput( 'community_page_new_user_modal_scss' );
+
+		return true;
+	}
+
+	/**
 	 * Add community page entry point to article page right rail module
 	 *
 	 * @param array $railModuleList
@@ -92,6 +110,10 @@ class CommunityPageSpecialHooks {
 		);
 		WikiaDataAccess::cachePurge( $key );
 		CommunityPageSpecialUsersModel::logUserModelPerformanceData( 'purge', 'recently_joined' );
+
+		// Set cookie to show first edit modal to user
+		global $wgCookieDomain;
+		setcookie ( self::FIRST_EDIT_COOKIE_KEY, true, time()+60, '/', $wgCookieDomain );
 
 		return true;
 	}
