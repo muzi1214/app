@@ -63,10 +63,20 @@ class CommunityPageSpecialHooks {
 	 * @return true
 	 */
 	public static function onBeforePageDisplay( \OutputPage $out, \Skin $skin ) {
-		\Wikia::addAssetsToOutput( 'community_page_benefits_js' );
-		\Wikia::addAssetsToOutput( 'community_page_benefits_scss' );
-		\Wikia::addAssetsToOutput( 'community_page_new_user_modal_js' );
-		\Wikia::addAssetsToOutput( 'community_page_new_user_modal_scss' );
+		if ( $out->getUser()->isAnon() &&
+			!isset( $_COOKIE['cpBenefitsModalShown'] ) &&
+			$out->getRequest()->getVal( 'action' ) !== 'edit' &&
+			$out->getRequest()->getVal( 'veaction' ) !== 'edit' &&
+			$out->getRequest()->getVal( 'action' ) !== 'submit'
+		) {
+			\Wikia::addAssetsToOutput( 'community_page_benefits_js' );
+			\Wikia::addAssetsToOutput( 'community_page_benefits_scss' );
+		}
+
+		if ( !$out->getUser()->isAnon() ) {
+			\Wikia::addAssetsToOutput( 'community_page_new_user_modal_js' );
+			\Wikia::addAssetsToOutput( 'community_page_new_user_modal_scss' );
+		}
 
 		return true;
 	}
@@ -105,6 +115,8 @@ class CommunityPageSpecialHooks {
 	}
 
 	public static function onUserFirstEditOnLocalWiki( $userId, $wikiId ) {
+		global $wgCookieDomain, $wgCookiePath;
+
 		$key = CommunityPageSpecialUsersModel::getMemcKey(
 			[ CommunityPageSpecialUsersModel::RECENTLY_JOINED_MCACHE_KEY, 14 ]
 		);
@@ -112,8 +124,7 @@ class CommunityPageSpecialHooks {
 		CommunityPageSpecialUsersModel::logUserModelPerformanceData( 'purge', 'recently_joined' );
 
 		// Set cookie to show first edit modal to user
-		global $wgCookieDomain;
-		setcookie ( self::FIRST_EDIT_COOKIE_KEY, true, time()+60, '/', $wgCookieDomain );
+		setcookie( self::FIRST_EDIT_COOKIE_KEY, true, time()+60, $wgCookiePath, $wgCookieDomain );
 
 		return true;
 	}
