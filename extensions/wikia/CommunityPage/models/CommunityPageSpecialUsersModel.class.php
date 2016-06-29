@@ -109,6 +109,11 @@ class CommunityPageSpecialUsersModel {
 				$db = wfGetDB( DB_SLAVE );
 
 				$adminIds = $this->getAdmins();
+
+				if ( !$adminIds ) {
+					return [];
+				}
+
 				$botIds = $this->getBotIds();
 				$dateTwoYearsAgo = date( 'Y-m-d', strtotime( '-2 years' ) );
 
@@ -196,7 +201,7 @@ class CommunityPageSpecialUsersModel {
 	/**
 	 * @return array list of blacklisted ids for Top Contributors
 	 */
-	private function getBlacklistedIds(){
+	private function getBlacklistedIds() {
 		$blacklistedIds = WikiaDataAccess::cache(
 			self::getMemcKey( self::ALL_BLACKLISTED_IDS_MCACHE_KEY ),
 			WikiaResponse::CACHE_LONG,
