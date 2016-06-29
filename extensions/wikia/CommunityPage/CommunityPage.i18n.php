@@ -94,8 +94,7 @@ $messages['en'] = array(
 	'communitypage-todo-module-heading' => 'Community To-do list',
 	'communitypage-todo-module-edit-list' => 'Edit list',
 	'communitypage-todo-module-description' => 'This is an area for admins to suggest pages that need work to help new contributors get started. (Admins - remember to provide details on what needs to be done.)',
-	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? $1 and ask them to provide suggestions here.',
-	'communitypage-todo-module-zero-state-contact-admin' => 'Contact an admin',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 );
 
 $messages['qqq'] = array(
@@ -192,7 +191,6 @@ $messages['qqq'] = array(
 	'communitypage-todo-module-edit-list' => 'Edit list link to show to the right of community to-do list header',
 	'communitypage-todo-module-description' => 'Description of what the purpose of the community to-do list is',
 	'communitypage-todo-module-zero-state' => 'Zero text to show when there is no community to-do page',
-	'communitypage-todo-module-zero-state-contact-admin' => 'Link text for contact an admin',
 );
 
 $messages['de'] = array(
@@ -284,7 +282,7 @@ $messages['de'] = array(
 	'communitypage-todo-module-heading' => 'ToDo-Liste der Community',
 	'communitypage-todo-module-edit-list' => 'Liste bearbeiten',
 	'communitypage-todo-module-description' => 'In diesem Bereich können Admins Seiten vorschlagen, an denen gearbeitet werden sollte und somit neue Beitragende bei ihrem Start unterstützen. (Admins: denkt bitte daran, detailliert zu beschreiben, was bearbeitet werden sollte).',
-	'communitypage-todo-module-zero-state' => 'Möchtest du gerne erfahren, wie du etwas zu dieser Community beitragen kannst? $1 und bitte ihn, hier Anregungen einzustellen.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Kontaktiere einen Admin',
 );
 
@@ -377,7 +375,7 @@ $messages['es'] = array(
 	'communitypage-todo-module-heading' => 'Lista de tareas de la Comunidad',
 	'communitypage-todo-module-edit-list' => 'Editar lista',
 	'communitypage-todo-module-description' => 'Esta es un área para que los administradores sugieran páginas que necesitan trabajo para ayudar a los nuevos editores a comenzar. (Administradores - recuerden proporcionar detalles sobre lo que necesita hacerse.)',
-	'communitypage-todo-module-zero-state' => '¿Quieres saber cómo puedes contribuir a esta comunidad? $1 y pídeles que aporten sugerencias aquí.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Contacta a un administrador',
 );
 
@@ -470,7 +468,7 @@ $messages['fr'] = array(
 	'communitypage-todo-module-heading' => 'À faire dans la communauté',
 	'communitypage-todo-module-edit-list' => 'Modifier la liste',
 	'communitypage-todo-module-description' => "Les administrateurs peuvent ici suggérer des pages à améliorer, sur lesquelles les nouveaux contributeurs peuvent commencer. (Administrateurs, n'oubliez pas de fournir des détails sur ce qu'il faut faire.)",
-	'communitypage-todo-module-zero-state' => 'Vous voulez savoir comment contribuer à cette communauté ? $1 afin de lui demander de fournir des suggestions ici.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Contactez un administrateur',
 );
 
@@ -502,8 +500,8 @@ $messages['it'] = array(
 	'communitypage-user-rank' => 'Il tuo rank',
 	'communitypage-user-contributions' => '{{PLURAL:$1|contribution|contributions}}',
 	'communitypage-contributions' => '$1 {{PLURAL:$1|contribution|contributions}}',
-	'communitypage-admins' => 'Ammin',
-	'communitypage-other-admins' => 'Altri ammin',
+	'communitypage-admins' => 'Amministratori',
+	'communitypage-other-admins' => 'Altri amministratori',
 	'communitypage-recently-joined' => 'Nuovi collaboratori recenti',
 	'communitypage-recent-activity' => "Visualizza tutta l'attività recente",
 	'communitypage-all-members' => 'Tutti i membri',
@@ -512,11 +510,11 @@ $messages['it'] = array(
 	'communitypage-created' => 'creato',
 	'communitypage-edited' => 'modificato',
 	'communitypage-deleted' => 'eliminato',
-	'communitypage-admin' => 'Ammin',
+	'communitypage-admin' => 'Amministratori',
 	'communitypage-joined' => 'è entrato',
 	'communitypage-modal-title' => 'Tutti i collaboratori',
 	'communitypage-modal-tab-all' => 'Tutto',
-	'communitypage-modal-tab-admins' => 'Ammin',
+	'communitypage-modal-tab-admins' => 'Amministratori',
 	'communitypage-modal-tab-loadingerror' => 'Errore caricamento dati',
 	'communitypage-no-contributions' => 'Non ci sono ancora contributi questa settimana! Sii il primo a contribuire!',
 	'communitypage-no-admins' => 'Non ci sono ancora amministratori in questo wiki.',
@@ -563,7 +561,7 @@ $messages['it'] = array(
 	'communitypage-todo-module-heading' => 'Elenco delle cose da fare community',
 	'communitypage-todo-module-edit-list' => 'Modifica elenco',
 	'communitypage-todo-module-description' => "Si tratta di un'area per gli amministratori per suggerire pagine che necessitano di lavoro, così da aiutare i nuovi collaboratori a iniziare. (Ammin - ricordarsi di fornire dettagli su ciò che occorre fare).",
-	'communitypage-todo-module-zero-state' => 'Desideri sapere come puoi contribuire a questa community? $1 e chiedi loro di fornire suggerimenti qui.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Contatta un amministratore',
 );
 
@@ -656,7 +654,7 @@ $messages['ja'] = array(
 	'communitypage-todo-module-heading' => 'このコミュニティのTo-Doリスト',
 	'communitypage-todo-module-edit-list' => 'リストを編集する',
 	'communitypage-todo-module-description' => 'ここではアドミン(管理者)が、読者やほかの編集メンバーに、より良くしたいページを紹介することができます。(アドミンの方へ -ほかのメンバーが編集しやすいように、それぞれのページを改善するためのポイントをできるだけ詳しく記載するようにしてください)',
-	'communitypage-todo-module-zero-state' => 'このコミュニティを編集したいですか？ $1して、書き込みのヘルプが必要なページを教えてもらおう！',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'アドミンに連絡',
 );
 
@@ -749,7 +747,7 @@ $messages['nl'] = array(
 	'communitypage-todo-module-heading' => 'Community To-do list',
 	'communitypage-todo-module-edit-list' => 'Edit list',
 	'communitypage-todo-module-description' => 'This is an area for admins to suggest pages that need work to help new contributors get started. (Admins - remember to provide details on what needs to be done.)',
-	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? $1 and ask them to provide suggestions here.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Contact an admin',
 );
 
@@ -842,7 +840,7 @@ $messages['pl'] = array(
 	'communitypage-todo-module-heading' => 'Lista-rzeczy-do-zrobienia-Społeczności',
 	'communitypage-todo-module-edit-list' => 'Edytuj listę',
 	'communitypage-todo-module-description' => 'This is an area for admins to suggest pages that need work to help new contributors get started. (Admins - remember to provide details on what needs to be done.)',
-	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? $1 and ask them to provide suggestions here.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Skontaktuj się z administratorem',
 );
 
@@ -935,7 +933,7 @@ $messages['pt'] = array(
 	'communitypage-todo-module-heading' => 'Lista de tarefas da Comunidade',
 	'communitypage-todo-module-edit-list' => 'Editar lista',
 	'communitypage-todo-module-description' => 'Esta é uma área para administradores sugerirem páginas que precisam de atenção para ajudar aos novos contribuidores a começar. (Administradores - lembrem-se de inserir detalhes sobre o que precisa ser feito).',
-	'communitypage-todo-module-zero-state' => 'Quer saber como você pode ajudar essa comunidade? $1 e peça sugestões.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Fale com um administrador',
 );
 
@@ -1028,7 +1026,7 @@ $messages['ru'] = array(
 	'communitypage-todo-module-heading' => 'Список задач сообщества',
 	'communitypage-todo-module-edit-list' => 'Править список',
 	'communitypage-todo-module-description' => 'Здесь администраторы размещают информацию о страницах, нуждающихся в доработке, чтобы новые участники могли сразу же приступить к правке. (Администраторы, не забудьте подробно объяснить, что необходимо сделать.)',
-	'communitypage-todo-module-zero-state' => 'Хотите узнать, как вы можете помочь этому сообществу? $1и попросите опубликовать предлагаемые к редактированию страницы здесь.',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => 'Свяжитесь с администратором',
 );
 
@@ -1121,7 +1119,7 @@ $messages['zh-hans'] = array(
 	'communitypage-todo-module-heading' => '社区待办事项列表',
 	'communitypage-todo-module-edit-list' => '编辑列表',
 	'communitypage-todo-module-description' => '管理员可以在这里建议新的贡献者通过完成哪些不完善的页面帮助社区发展。（管理员请注意：您需要提供详细说明）。',
-	'communitypage-todo-module-zero-state' => '想要知道如何可以对这个社区进行贡献吗？$1并且告诉他们在这里提供建议。',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => '联系管理员',
 );
 
@@ -1214,7 +1212,7 @@ $messages['zh-hant'] = array(
 	'communitypage-todo-module-heading' => '社區待辦事項清單',
 	'communitypage-todo-module-edit-list' => '編輯清單',
 	'communitypage-todo-module-description' => '管理員可以在這裡建議新的貢獻者通過完成哪些不完善的頁面幫助社區發展。（管理員請注意：您需要提供詳細說明）。',
-	'communitypage-todo-module-zero-state' => '想要知道你可以如何對這個社區進行貢獻嗎？$1並且告訴他們在這裡提供建議。',
+	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
 	'communitypage-todo-module-zero-state-contact-admin' => '聯繫管理員',
 );
 
