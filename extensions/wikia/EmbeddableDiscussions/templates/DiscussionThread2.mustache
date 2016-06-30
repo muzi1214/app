@@ -1,0 +1,61 @@
+<section class="module embeddable-discussions-module">
+	<div class="discussion-threads">
+		{{#threads}}
+			<div class="post-detail">
+				<div class="side-spaced">
+					<div id="post-{{id}}" class="header-container">
+						<div class="avatar-container">
+							<a href="http://fallout.pgroland.wikia-dev.com/wiki/User:{{author}}">
+								<img src="{{authorAvatar}}" class="avatar" alt="{{author}}" width="42px" height="42px">
+							</a>
+						</div>
+						<div class="avatar-details">
+							<a class="avatar-username" href="http://fallout.pgroland.wikia-dev.com/wiki/User:{{author}}">
+								{{author}}
+							</a>
+							<span class="timestamp" title="{{createdAt}}">
+								• {{createdAt}}
+							</span>
+						</div>
+						<div class="discussion-more-options" id="post-options-{{id}}">
+						</div>
+						<div class="more-options-pop-over pop-over orient-above pointer-right-edge">
+						</div>
+					</div>
+					<div class="discussion-content">
+						{{content}}
+					</div>
+					<div class="row post-counters">
+						<span class="upvote-count">
+							{{upvoteCount}}
+						</span>
+						<span class="reply-count">
+							{{commentCount}}
+						</span>
+					</div>
+				</div>
+				<div>
+					<ul class="row post-actions">
+						<li class="small-4 large-4 upvote-area upvote" >
+							Upvote
+						</li>
+						<li class="small-4 large-4 replies replies-area">
+						<a id="ember1836" class="ember-view">
+							Reply
+						</a>
+						</li>
+						<li class="small-4 large-4 share">
+							<div id="ember1837" class="ember-view action">
+								<a class="toggle-share-area" id="share-{{id}}">
+									<span class="">Share</span>
+								</a>
+								<div class="share-pop-over ember-view pop-over">
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		{{/threads}}
+	</div>
+</section>
