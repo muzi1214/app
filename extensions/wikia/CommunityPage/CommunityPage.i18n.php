@@ -289,6 +289,11 @@ $messages['de'] = array(
 	'communitypage-todo-module-edit-list' => 'Liste bearbeiten',
 	'communitypage-todo-module-description' => 'In diesem Bereich können Admins Seiten vorschlagen, an denen gearbeitet werden sollte und somit neue Beitragende bei ihrem Start unterstützen. (Admins: denkt bitte daran, detailliert zu beschreiben, was bearbeitet werden sollte).',
 	'communitypage-todo-module-zero-state' => 'Möchtest du gerne erfahren, wie du etwas zu dieser Community beitragen kannst? Kontaktiere einen Admin und bitte ihn, hier Anregungen einzutragen.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Kontaktiere einen Admin',
+	'communitypage-first-edit-heading' => 'Herzlichen Glückwunsch zu deiner ersten Bearbeitung in dieser Community!',
+	'communitypage-first-edit-subheading' => 'Besuche die Community-Seite um andere Benutzer zu treffen und um herauszufinden, wie du der Community helfen kannst',
+	'communitypage-first-edit-get-started' => 'Leg los',
+	'communitypage-first-edit-maybe-later' => 'Vielleicht später',
 );
 
 $messages['es'] = array(
@@ -385,6 +390,11 @@ $messages['es'] = array(
 	'communitypage-todo-module-edit-list' => 'Editar lista',
 	'communitypage-todo-module-description' => 'Esta es un área para que los administradores sugieran páginas que necesitan trabajo para ayudar a los nuevos editores a comenzar. (Administradores - recuerden proporcionar detalles sobre lo que necesita hacerse.)',
 	'communitypage-todo-module-zero-state' => '¿Quieres saber cómo puedes contribuir a esta comunidad? Contacta a los administradores y pídeles que aporten sugerencias aquí.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Contacta a un administrador',
+	'communitypage-first-edit-heading' => '¡Felicitaciones por haber hecho tu primera edición en esta comunidad!',
+	'communitypage-first-edit-subheading' => 'Conoce a otras personas y encuentra más formas de ayudar visitando la Página Comunitaria',
+	'communitypage-first-edit-get-started' => 'Empieza',
+	'communitypage-first-edit-maybe-later' => 'Tal vez más tarde',
 );
 
 $messages['fr'] = array(
@@ -481,6 +491,11 @@ $messages['fr'] = array(
 	'communitypage-todo-module-edit-list' => 'Modifier la liste',
 	'communitypage-todo-module-description' => "Les administrateurs peuvent ici suggérer des pages à améliorer, sur lesquelles les nouveaux contributeurs peuvent commencer. (Administrateurs, n'oubliez pas de fournir des détails sur ce qu'il faut faire.)",
 	'communitypage-todo-module-zero-state' => 'Vous voulez savoir comment contribuer à cette communauté ? Contactez un admin afin de lui demander de fournir des suggestions ici.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Contactez un administrateur',
+	'communitypage-first-edit-heading' => 'Félicitations pour votre première contribution à cette communauté !',
+	'communitypage-first-edit-subheading' => "Rencontrez d'autres contributeurs et découvrez comment vous pouvez aider en allant sur la Page Communauté",
+	'communitypage-first-edit-get-started' => 'Commencer',
+	'communitypage-first-edit-maybe-later' => 'Une prochaine fois',
 );
 
 $messages['it'] = array(
@@ -577,6 +592,11 @@ $messages['it'] = array(
 	'communitypage-todo-module-edit-list' => 'Modifica elenco',
 	'communitypage-todo-module-description' => "Questa è un'area per gli amministratori per suggerire pagine che necessitano di lavoro ai nuovi collaboratori in modo da aiutarli ad iniziare. (Amministratori: ricordatevi di fornire dettagli su ciò che occorre fare.)",
 	'communitypage-todo-module-zero-state' => 'Vuoi sapere come puoi contribuire a questa community? Contatta un amministratore e chiedigli di aggiungere dei suggerimenti qui.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Contatta un amministratore',
+	'communitypage-first-edit-heading' => 'Congratulazioni per aver fatto la tua prima modifica su questa community!',
+	'communitypage-first-edit-subheading' => 'Incontra altra gente e scopri nuovi modi di contribuire visitando la pagina della community',
+	'communitypage-first-edit-get-started' => 'Inizia adesso',
+	'communitypage-first-edit-maybe-later' => 'Forse più tardi',
 );
 
 $messages['ja'] = array(
@@ -673,6 +693,11 @@ $messages['ja'] = array(
 	'communitypage-todo-module-edit-list' => 'リストを編集する',
 	'communitypage-todo-module-description' => 'ここではアドミン(管理者)が、読者やほかの編集メンバーに、より良くしたいページを紹介することができます。(アドミンの方へ - ほかのメンバーが編集しやすいように、それぞれのページを改善するためのポイントをできるだけ詳しく記載するようにしてください。)',
 	'communitypage-todo-module-zero-state' => 'このコミュニティを編集したいと思ったら、どのページがヘルプを求めているかアドミンに連絡して聞いてみよう。',
+	'communitypage-todo-module-zero-state-contact-admin' => 'アドミンに連絡',
+	'communitypage-first-edit-heading' => 'これでコミュニティへの初投稿は無事完了です！',
+	'communitypage-first-edit-subheading' => 'コミュニティ・ページにアクセスしよう！他のファンとの出会いや、コミュニティへの参加方法についての詳しい情報が見つかります。',
+	'communitypage-first-edit-get-started' => '編集スタート！',
+	'communitypage-first-edit-maybe-later' => '後で',
 );
 
 $messages['nl'] = array(
@@ -856,15 +881,16 @@ $messages['pl'] = array(
 	'communitypage-anon-contrib-header' => '$1 lub $2 i dokonaj edycji tej wiki, aby zobaczyć jakie miejsce zajmujesz w rankingu tej społeczności!',
 	'communitypage-anon-login' => 'Zaloguj się',
 	'communitypage-anon-register' => 'zarejestruj się',
-	'communitypage-first-edit-heading' => 'Gratulacje z okazji wykonania pierwszej edycji na tej wikii!',
-	'communitypage-first-edit-subheading' => 'Odwiedź stronę społeczności, aby poznać innych i znaleźć więcej sposobów jak pomóc',
-	'communitypage-first-edit-get-started' => 'Pierwsze kroki',
-	'communitypage-first-edit-maybe-later' => 'Może później',
 	'communitypage-todo-module-page-name' => 'Lista-rzeczy-do-zrobienia',
 	'communitypage-todo-module-heading' => 'Lista rzeczy do zrobienia',
 	'communitypage-todo-module-edit-list' => 'Edytuj listę',
 	'communitypage-todo-module-description' => 'Jest to obszar dla administratorów, w którym mogą sugerować strony, które wymagają pracy, aby pomóc nowym użytkownikom zacząć pracę. (Administratorzy - Pamiętajcie, aby podać szczegóły tego, co powinno być zrobione)',
 	'communitypage-todo-module-zero-state' => 'Chcesz dowiedzieć się jak możesz pomóc tej społeczności? Skontaktuj się z administratorem i poproś, żeby dodał tutaj sugestie.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Skontaktuj się z administratorem',
+	'communitypage-first-edit-heading' => 'Gratulacje z okazji wykonania pierwszej edycji na tej wikii!',
+	'communitypage-first-edit-subheading' => 'Odwiedź stronę społeczności, aby poznać innych i znaleźć więcej sposobów jak pomóc',
+	'communitypage-first-edit-get-started' => 'Pierwsze kroki',
+	'communitypage-first-edit-maybe-later' => 'Może później',
 );
 
 $messages['pt'] = array(
@@ -961,6 +987,11 @@ $messages['pt'] = array(
 	'communitypage-todo-module-edit-list' => 'Editar lista',
 	'communitypage-todo-module-description' => 'Esta é uma área para administradores sugerirem páginas que precisam de atenção para ajudar aos novos contribuidores a começar. (Administradores - lembrem-se de inserir detalhes sobre o que precisa ser feito).',
 	'communitypage-todo-module-zero-state' => 'Quer saber como você pode ajudar essa comunidade? Fale com um administrador e peça sugestões.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Fale com um administrador',
+	'communitypage-first-edit-heading' => 'Parabéns por fazer a sua primeira edição nesta comunidade!',
+	'communitypage-first-edit-subheading' => 'Visite a Página da Comunidade para conhecer outras pessoas e encontrar mais maneiras de ajudar',
+	'communitypage-first-edit-get-started' => 'Começar',
+	'communitypage-first-edit-maybe-later' => 'Talvez mais tarde',
 );
 
 $messages['ru'] = array(
@@ -1057,6 +1088,11 @@ $messages['ru'] = array(
 	'communitypage-todo-module-edit-list' => 'Править список',
 	'communitypage-todo-module-description' => 'Здесь администраторы размещают информацию о страницах, нуждающихся в доработке, чтобы новые участники могли сразу же приступить к правке. (Администраторы, не забудьте подробно объяснить, что необходимо сделать.)',
 	'communitypage-todo-module-zero-state' => 'Хотите узнать, как вы можете помочь этому сообществу? $1и попросите сообщить о страницах, нуждающихся в доработке, здесь.',
+	'communitypage-todo-module-zero-state-contact-admin' => 'Свяжитесь с администратором',
+	'communitypage-first-edit-heading' => 'Поздравляем с первой правкой на этой вики!',
+	'communitypage-first-edit-subheading' => 'Познакомьтесь с другими участниками и узнайте, как помочь вики, на Странице сообщества',
+	'communitypage-first-edit-get-started' => 'Приступить к работе',
+	'communitypage-first-edit-maybe-later' => 'Возможно, позже',
 );
 
 $messages['zh-hans'] = array(
@@ -1153,6 +1189,11 @@ $messages['zh-hans'] = array(
 	'communitypage-todo-module-edit-list' => '编辑列表',
 	'communitypage-todo-module-description' => '管理员可以在这里建议新的贡献者通过完成哪些不完善的页面帮助社区发展。（管理员请注意：您需要提供详细说明）。',
 	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
+	'communitypage-todo-module-zero-state-contact-admin' => '联系管理员',
+	'communitypage-first-edit-heading' => '恭喜你对这个社区做出了首次编辑！',
+	'communitypage-first-edit-subheading' => '访问社区页认识其他朋友，了解如何更好地为社区做出贡献！ ',
+	'communitypage-first-edit-get-started' => '立即开始',
+	'communitypage-first-edit-maybe-later' => '以后再说',
 );
 
 $messages['zh-hant'] = array(
@@ -1249,5 +1290,10 @@ $messages['zh-hant'] = array(
 	'communitypage-todo-module-edit-list' => '編輯清單',
 	'communitypage-todo-module-description' => '管理員可以在這裡建議新的貢獻者通過完成哪些不完善的頁面幫助社區發展。（管理員請注意：您需要提供詳細說明）。',
 	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
+	'communitypage-todo-module-zero-state-contact-admin' => '聯繫管理員',
+	'communitypage-first-edit-heading' => '恭喜你對這個社區做出了首次編輯！',
+	'communitypage-first-edit-subheading' => '訪問社區頁認識其他朋友，瞭解如何更好地為社區做出貢獻！',
+	'communitypage-first-edit-get-started' => '現在開始',
+	'communitypage-first-edit-maybe-later' => '以後再說',
 );
 
