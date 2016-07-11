@@ -96,6 +96,10 @@ $messages['en'] = array(
 	'communitypage-todo-module-edit-list' => 'Edit list',
 	'communitypage-todo-module-description' => 'This is an area for admins to suggest pages that need work to help new contributors get started. (Admins - remember to provide details on what needs to be done.)',
 	'communitypage-todo-module-zero-state' => 'Want to know how you can contribute to this community? Contact an admin and ask them to provide suggestions here.',
+	'communitypage-first-edit-heading' => 'Congratulations on making your first contribution to this community!',
+	'communitypage-first-edit-subheading' => 'Connect with others and find more ways to help by visiting the Community Page',
+	'communitypage-first-edit-get-started' => 'Continue',
+	'communitypage-first-edit-maybe-later' => 'Maybe Later',
 );
 
 $messages['qqq'] = array(
